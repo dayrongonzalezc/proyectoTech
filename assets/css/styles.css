@@ -1,0 +1,58 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;
+}
+
+.alert-warning {
+    background-color: #fff3e0;
+    color: #ff9800;
+    font-size: 0.9em;
+}
+
+.btn-group .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-group .btn.active {
+    border: 2px solid #474746;
+    background-color: #474746;
+}
+
+.input-group .form-control {
+    text-align: center;
+    font-weight: bold;
+}
+
+.border {
+    background-color: #f8f8f8;
+    font-size: 1em;
+}
+
+.btn-dark {
+    background-color: #333;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #6b666698;
+}
+
+.cards-wrapper {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    display: flex;
+    width: 100%;
+}
+
+.card2 {
+    flex: 0 0 15%; /* Cada tarjeta ocupará el 25% del contenedor para mostrar 4 tarjetas a la vez */
+    box-sizing: border-box;
+}
