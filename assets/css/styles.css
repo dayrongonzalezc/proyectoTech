@@ -56,3 +56,156 @@ h1, h2, p {
     flex: 0 0 15%; /* Cada tarjeta ocupará el 25% del contenedor para mostrar 4 tarjetas a la vez */
     box-sizing: border-box;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step {
+    font-size: 1.2em;
+    color: #888;
+}
+
+.step.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.cart-content {
+    display: flex;
+    gap: 20px;
+}
+
+.cart-items, .cart-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cart-items {
+    flex: 3;
+}
+
+.cart-summary {
+    flex: 1;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-image {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product-details {
+    flex: 1;
+    text-align: left;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #f00;
+    cursor: pointer;
+}
+
+.stock-warning {
+    color: #ff6600;
+    font-size: 0.8em;
+}
+
+.recommended-section {
+    margin-top: 20px;
+}
+
+.recommended-items {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.recommended-item {
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.cart-summary h3 {
+    margin-bottom: 10px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.coupon-section {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.coupon-section input {
+    flex: 1;
+    padding: 8px;
+}
+
+.coupon-section button {
+    background-color: #f60;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
