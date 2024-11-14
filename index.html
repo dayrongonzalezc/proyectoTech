@@ -93,12 +93,14 @@
                     <i class="fa fa-fw fa-user text-dark mr-3"></i>
                     <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                 </a>
+                <!-- Inicio boton de suscribirse y modal -->
                 <a class="nav-icon position-relative text-decoration-none" href="#">
                     <div class="container">
                         <div class="row">
                             <div class="col">
                                 <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#suscribirse-modal-1">Suscribirse</button>
                                 <div class="modal fade" id="suscribirse-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1" data-bs-backdrop="static">
+                                    <!-- cuadro de diálogo emergente -->
                                     <div class="modal-dialog modal-dialog-scrollable">
                                         <div class="modal-content text-dark">
                                             <div class="modal-header">
@@ -141,7 +143,7 @@
                                                     </div>
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                        <button type="submit" class="btn btn-success">Acepto</button>
+                                                        <button type="submit" class="btn btn-success">Aceptar</button>
                                                     </div>
                                                 </form>
                                             
@@ -155,11 +157,35 @@
                         </div>
                     </div>
                 </a>
+                <!-- Fin de boton de suscribirse y modal -->
             </div>
         </div>
         </div>
     </nav>
     <!-- Fin del menú -->
+
+    <!-- Modal de búsqueda -->
+    <div class="modal" id="templatemo_search" tabindex="-1" aria-labelledby="templatemo_search" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <form action="" method="get" class="w-100">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" id="inputModalSearch" name="q"
+                                placeholder="Buscar ...">
+                            <button type="submit" class="input-group-text bg-success text-light">
+                                <i class="fa fa-fw fa-search text-light"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- fin de modal de busqueda -->
 
     <!-- Nueva colección -->
     <section class="container pt-3">
