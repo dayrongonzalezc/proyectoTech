@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libre - Moda Deportiva</title>
+    <!-- iconos-->
+    <link rel="apple-touch-icon" href="assets/img/">
+    <!-- css-->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/templatemo.css">
+     <link rel="stylesheet" href="assets/css/custom.css">
+     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+     <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- inicio encabezado-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@libremodadeportiva.com">info@libremodadeportiva.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel: 057-3004584225">+57-3004584225</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- fin encabezado-->
+    <!-- inicio menu-->
+         <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/Logo1.png" alt="Logo" width="150" height="auto" />
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menú -->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="producto.html">Productos</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Buscar ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="carrito.html">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+9</span>
+                    </a>
+                    <!-- Inicio boton de suscribirse y modal -->
+                <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#suscribirse-modal-1">Suscribirse</button>
+                                <div class="modal fade" id="suscribirse-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1" data-bs-backdrop="static">
+                                    <!-- cuadro de diálogo emergente -->
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content text-dark">
+                                            <div class="modal-header">
+                                                <img src="assets/img/Logo1.png" alt="Logo" width="150" height="auto">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+    
+                                            <div class="modal-body">
+                                                <form action="" method="post">
+                                                    <div class="mb-3">
+                                                        <label for="nombre" class="form-label">Nombre</label>
+                                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="apellido" class="form-label">Apellido</label>
+                                                        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="correo" class="form-label">Correo</label>
+                                                        <input type="email" class="form-control" id="correo" name="correo" placeholder="correo@micorreo.com" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="documento" class="form-label">Documento de identidad</label>
+                                                        <input type="tel" class="form-control" id="telefono" name="doumento" placeholder="1234567890"required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="telefono" class="form-label">Teléfono</label>
+                                                        <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="EJ:3001233210" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="sexo" class="form-label">Sexo</label>
+                                                        <select class="form-select" id="sexo" name="sexo" required>
+                                                            <option value="masculino">Masculino</option>
+                                                            <option value="femenino">Femenino</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="intereses" class="form-label">Intereses</label>
+                                                        <textarea class="form-control" id="intereses" name="intereses" required></textarea>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                                        <button type="submit" class="btn btn-success">Aceptar</button>
+                                                    </div>
+                                                </form>
+                                            
+                                            </div>
+                                
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Fin de boton de suscribirse y modal -->
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+<!-- fin menu-->
+ <!-- Modal -->
+ <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="" method="get" class="modal-content modal-body border-0 p-0">
+            <div class="input-group mb-2">
+                <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Buscar ...">
+                <button type="submit" class="input-group-text bg-success text-light">
+                    <i class="fa fa-fw fa-search text-white"></i>
+                </button>
+                
+            </div>
+            <p><br>Escriba el producto a Buscar ...</p>
+        </form>
+    </div>
+</div>
+<!-- Fin Modal -->
+
+<!-- Fin contenido -->
+<div class="container">
+    <div class="steps">
+        <span class="step active">1 Carrito de compras</span>
+        <span class="step">2 Pago</span>
+        <span class="step">3 Revisar</span>
+    </div>
+    
+    <div class="cart-content">
+        <div class="cart-items">
+            <div class="cart-item">
+                <input type="checkbox" checked>
+                <img src="assets/img/productos/p2.sudadera.jpg" alt="Sudadera" class="product-image">
+                <div class="product-details">
+                    <h4>Sudadera</h4>
+                    <p>$ 80.000</p>
+                </div>
+            <!-- Cantidad -->
+            <div class="columns">
+            <div class="my-3">
+                <div class="input-group quantity-controls">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button" id="decrease" onclick="updateQuantity(-1)">-</button>
+                    </div>
+                    <input type="number" class="form-control text-center" id="quantity" value="1" style="max-width: 70px;" min="1" readonly>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="increase" onclick="updateQuantity(1)">+</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span class="stock-warning">* Disponibilidad limitada de existencias</span><br>
+                <button class="btn btn-outline-danger btn-sm">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+                
+            </div>
+            </div>
+            <hr>
+                <div class="cart-summary">
+                    
+                    <div class="border p-3 rounded my-3" id="total-display">
+                        <p>Producto * <span id="product-quantity">1</span></p>
+                        <h3>Total: <span class="text-dark" id="total">$80.000</span></h3>
+                    </div>
+
+                    <div class="summary-item">
+                        <span>Tarifa de envío</span>
+                        <span>Gratis</span>
+                    </div>
+                    <div class="coupon-section">
+                        <input type="text" placeholder="Cupón">
+                        <button>Aplicar</button>
+                    </div>
+                    <button class="pay-btn"><a href="pago.html" class="text-decoration-none text-light">Pago</a></button>
+                </div>
+                
+            </div>
+        
+            <div class="recommended-section">
+                <h3>Es posible que también te guste</h3>
+                <div class="recommended-items">
+                    <!-- Recomendaciones de productos -->
+                    <div class="recommended-item">
+                        <img src="assets/img/top/T1.Chaqueta.jpg" alt="Recomendado">
+                        <h5>Chaqueta Blanca</h5>
+                        <p>$ 20.000</p>
+                    </div>
+                    <div class="recommended-item">
+                        <img src="assets/img/top/T3.LegginsT.jpg" alt="Recomendado">
+                        <h5>Leggins + Top</h5>
+                        <p>$ 20.000</p>
+                    <!-- Añadir más productos recomendados según sea necesario -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin contenido -->
+
+<!-- inicio del pie -->
+
+<footer class="bg-light" id="templatemo_footer_bottom">
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-4 pt-5">
+                <h3 class="text-dark fw-bold pb-3 h4">LIBRE Moda Deportiva</h3>
+                <ul class="list-unstyled text-dark footer-link-list border-end">
+                    <li>
+                        <i class="fa fa-map-marker-alt fa-fw text-dark"></i>
+                        <a class="text-dark text-decoration-none fs-6" href="#">Local principal - Valledupar -
+                            Colombia</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw text-dark "></i>
+                        <a class="navbar-sm-brand text-decoration-none text-dark fs-6" href="tel: 057-777-7777">tel:
+                            057-777-7777</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope mx-2 text-dark"></i>
+                        <a class="text-dark navbar-sm-brand text-decoration-none fs-6"
+                            href="mailto:info@libremodadeportiva.com">info@libremodadeportiva.com</a>
+
+                    </li>
+                </ul>
+                <div class=" container row text-dark mb-4">
+                    <div class="col-12 mb-3">
+                        <div class="w-100 my-3"></div>
+                    </div>
+                    <div class="col-auto me-auto">
+                        <ul class="list-inline text-left footer-icons">
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-dark text-decoration-none" target="_blank" href="http://facebook.com/"><i
+                                        class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-dark text-decoration-none" target="_blank" href="https://www.instagram.com/"><i
+                                        class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-dark text-decoration-none" target="_blank" href="https://twitter.com/"><i
+                                        class="fab fa-twitter fa-lg fa-fw"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-5">
+                <h4 class="text-black fw-bold">Productos</h4>
+                <ul class="list-unstyled footer-link-list">
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">Camisetas</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">Sudaderas</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">Shorts</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">Joggers</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">Chaquetas</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">leggings</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-4 pt-5">
+                <h4 class="text-black fw-bold">Más información</h4>
+                <ul class="list-unstyled footer-link-list">
+                    <li><a class="text-decoration-none text-dark fs-6" href="index.html">Inicio</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="about.html">Acerca de</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="shop.html">Compras</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="producto.html">Productos</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="contact.html">Contactos</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">Redes sociales</a></li>
+                    <li><a class="text-decoration-none text-dark fs-6" href="#">¿Necesitas ayuda?</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- derechos de autor -->
+    <div class="container">
+        <div class="w-100 py-3 border-top border-dark"></div>
+            <div class="row">
+                <p class="text-left text-dark fs-6">
+                    Copyright &copy; 2024 - LIBRE Moda Deportiva | Diseñado por: Carlos Orozco & Dayron González
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- Scripts -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="assets/js/templatemo.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
