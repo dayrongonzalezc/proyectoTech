@@ -36,129 +36,131 @@
     <!-- fin encabezado-->
     <!-- inicio menu-->
          <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/Logo1.png" alt="Logo" width="150" height="auto" />
-            </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- menú -->
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tienda.html">Tienda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="producto.html">Productos</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Buscar ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="carrito.html">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+9</span>
-                    </a>
-                    <!-- Inicio boton de suscribirse y modal -->
-                <a class="nav-icon position-relative text-decoration-none" href="#">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#suscribirse-modal-1">Suscribirse</button>
-                                <div class="modal fade" id="suscribirse-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1" data-bs-backdrop="static">
-                                    <!-- cuadro de diálogo emergente -->
-                                    <div class="modal-dialog modal-dialog-scrollable">
-                                        <div class="modal-content text-dark">
-                                            <div class="modal-header">
-                                                <img src="assets/img/Logo1.png" alt="Logo" width="150" height="auto">
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
+         <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/Logo1.png" alt="Logo" width="150" height="auto" />
+                </a>
     
-                                            <div class="modal-body">
-                                                <form action="" method="post">
-                                                    <div class="mb-3">
-                                                        <label for="nombre" class="form-label">Nombre</label>
-                                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="apellido" class="form-label">Apellido</label>
-                                                        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" required>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="correo" class="form-label">Correo</label>
-                                                        <input type="email" class="form-control" id="correo" name="correo" placeholder="correo@micorreo.com" required>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="documento" class="form-label">Documento de identidad</label>
-                                                        <input type="tel" class="form-control" id="telefono" name="doumento" placeholder="1234567890"required>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="telefono" class="form-label">Teléfono</label>
-                                                        <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="EJ:3001233210" required>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="sexo" class="form-label">Sexo</label>
-                                                        <select class="form-select" id="sexo" name="sexo" required>
-                                                            <option value="masculino">Masculino</option>
-                                                            <option value="femenino">Femenino</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="intereses" class="form-label">Intereses</label>
-                                                        <textarea class="form-control" id="intereses" name="intereses" required></textarea>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                                        <button type="submit" class="btn btn-success">Aceptar</button>
-                                                    </div>
-                                                </form>
-                                            
-                                            </div>
-                                
-                                        </div>
-                                    </div>
-
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- menú -->
+                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                    <div class="flex-fill">
+                        <ul class="nav navbar-nav d-flex justify-content-center mx-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Comprar</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="navbar align-self-center d-flex">
+                        <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inputMobileSearch" placeholder="Buscar ...">
+                                <div class="input-group-text">
+                                    <i class="fa fa-fw fa-search"></i>
                                 </div>
                             </div>
                         </div>
+                        <a class="nav-icon position-relative text-decoration-none" href="#">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-success shadow" data-bs-toggle="modal"
+                                            data-bs-target="#suscribirse-modal-1">Suscribirse</button>
+                                        <div class="modal fade" id="suscribirse-modal-1" tabindex="-1" aria-hidden="true"
+                                            aria-labelledby="label-modal-1" data-bs-backdrop="static">
+                                            <div class="modal-dialog modal-dialog-scrollable">
+                                                <div class="modal-content text-dark">
+                                                    <div class="modal-header">
+                                                        <img src="Logo1.png" alt="Logo" width="150" height="auto">
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+    
+                                                    <div class="modal-body">
+                                                        <form action="" method="post">
+                                                            <div class="mb-3">
+                                                                <label for="nombre" class="form-label">Nombre</label>
+                                                                <input type="text" class="form-control" id="nombre"
+                                                                    name="nombre" placeholder="Nombre" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="apellido" class="form-label">Apellido</label>
+                                                                <input type="text" class="form-control" id="apellido"
+                                                                    name="apellido" placeholder="Apellido" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="correo" class="form-label">Correo</label>
+                                                                <input type="email" class="form-control" id="correo"
+                                                                    name="correo" placeholder="correo@micorreo.com"
+                                                                    required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="documento" class="form-label">Documento de
+                                                                    identidad</label>
+                                                                <input type="tel" class="form-control" id="telefono"
+                                                                    name="doumento" placeholder="1234567890" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="telefono" class="form-label">Teléfono</label>
+                                                                <input type="tel" class="form-control" id="telefono"
+                                                                    name="telefono" placeholder="EJ:3001233210" required>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="sexo" class="form-label">Sexo</label>
+                                                                <select class="form-select" id="sexo" name="sexo" required>
+                                                                    <option value="masculino">Masculino</option>
+                                                                    <option value="femenino">Femenino</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="intereses" class="form-label">Intereses</label>
+                                                                <textarea class="form-control" id="intereses"
+                                                                    name="intereses" required></textarea>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-danger"
+                                                                    data-bs-dismiss="modal">Cancelar</button>
+                                                                <button type="submit"
+                                                                    class="btn btn-success">Acepto</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                            <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                        </a>
+                        <a class="nav-icon position-relative text-decoration-none" href="carrito.html">
+                            <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
+                        </a>
+                        <a class="nav-icon position-relative text-decoration-none" href="#">
+                            <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+9</span>
+                        </a>
                     </div>
-                </a>
-                <!-- Fin de boton de suscribirse y modal -->
-
                 </div>
             </div>
-
-        </div>
-    </nav>
+        </nav>
 <!-- fin menu-->
  <!-- Modal -->
  <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -405,6 +407,162 @@
     
 
 <!-- carousel lo mas vendido -->
+
+<section>
+    <div class="container-fluid px-0 mb-5">
+    <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+            <h3 class="h3 fw-bold">Lo más vendido</h3>
+        </div>
+    </div>   
+    <div id="template-mo-zay-hero-carousel" class="carousel slide m-12px" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="d-block border-light">
+        <div class="carousel-inner max-width:100%; height:auto;">
+            <div class="carousel-item active mx-2">
+                <div class="cards-wrapper img-fluid d-flex align-items-center">
+                    <div class="card">
+                        <img src="assets/img/Top/T1.Chaqueta.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Chaqueta">                               
+                        <div class="card-body">
+                            <h5 class="card-title">Chaqueta blanca</h5>
+                            <p class="card-text">precio:$ 20.000</p>
+                            <p class="text-muted">Vistas (110)</p>
+                            <div class="text-center">
+                                <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">Añadir al carrito</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/Top/T2. JoggerB.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Jogger">
+                            <div class="card-body">
+                                <h5 class="card-title">jogger beige</h5>
+                                <p class="card-text">precio:$ 20.000</p>
+                                <p class="text-muted">Vistas (110)</p>
+                                <div class="text-center">
+                                    <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                    <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                                </div>
+                                <div class="text-center">
+                                    <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/Top/T3.LegginsT.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Leggins">
+                            <div class="card-body">
+                                <h5 class="card-title">Leggins + Top</h5>
+                                <p class="card-text">precio:$ 20.000</p>
+                                <p class="text-muted">Vistas (110)</p>
+                                <div class="text-center">
+                                    <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                    <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                                </div>
+                                <div class="text-center">
+                                    <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/Top/T4.Conjss.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Sueter + sudadera">
+                            <div class="card-body">
+                                <h5 class="card-title">Sueter + sudadera</h5>
+                                <p class="card-text">precio:$ 20.000</p>
+                                <p class="text-muted">Vistas (110)</p>
+                                <div class="text-center">
+                                    <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                    <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                                </div>
+                                <div class="text-center">
+                                    <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="cards-wrapper img-fluid d-flex align-items-center">
+                    <div class="card">
+                        <img src="assets/img/Top/T5.PantJogg.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Jogger-hombre">                               
+                        <div class="card-body">
+                            <h5 class="card-title">Pantalón Jogger</h5>
+                            <p class="card-text">precio:$ 20.000</p>
+                            <p class="text-muted">Vistas (110)</p>
+                            <div class="text-center">
+                                <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/Top/T6.ChaquetaN.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Chaqueta deportiva - mujer">
+                        <div class="card-body">
+                            <h5 class="card-title">Chaqueta negra</h5>
+                            <p class="card-text">precio:$ 20.000</p>
+                            <p class="text-muted">Vistas (110)</p>
+                            <div class="text-center">
+                                <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/Top/T7.ShortBolsillo.jpg" class="card-img-top;" style="width: calc(100%/4)px; height:auto;" alt="Short con bolsillo">
+                        <div class="card-body">
+                            <h5 class="card-title">Short con bolsillo</h5>
+                            <p class="card-text">precio:$ 38.000</p>
+                            <p class="text-muted">Vistas (110)</p>
+                            <div class="text-center">
+                                <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/Top/T8.ConjCbSN.jpg" class="card-img-top;"style="width: calc(100%/4)px; height:auto;" alt="Conjunto sudadera + Cahaqueta">
+                            <div class="card-body">
+                                <h5 class="card-title">Chaqueta + Sudadera</h5>
+                                <p class="card-text">precio:$ 20.000</p>
+                                <p class="text-muted">Vistas (110)</p>
+                                <div class="text-center">
+                                    <a href="carrito.html" class=" btn btn-primary">Añadir al carrito</a> 
+                                    <a href="producto.html" class=" btn btn-primary">Ver detalle</a> 
+                                </div>
+                                <div class="text-center">
+                                    <a href="#" class=" btn btn-primary">Añadir al carrito</a> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    </div>
+</section>
+<!-- 
     <section class="bg-white mb-5">
         <div class="container-fluid px-0 mb-5">
             <div class="row text-center pt-3">
@@ -532,6 +690,7 @@
         </div>
         </div>
     </section>
+ -->
     <!-- fin carousel lo mas vendido -->
 
     <br> <br> 
