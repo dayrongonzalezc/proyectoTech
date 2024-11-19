@@ -280,7 +280,7 @@ function renderizarCarrito() {
         }, 0);
         const miNodo = document.createElement('li');
         miNodo.classList.add('list-group-item', 'text-right', 'fs-6');
-        miNodo.textContent = `${numeroUnidadesItem}. ${miItem[0].nombre}...  ${miItem[0].precio}${divisa} `;
+        miNodo.textContent = `${numeroUnidadesItem}. ${miItem[0].nombre}...  ${miItem[0].precio} ${divisa} `;
         const miBoton = document.createElement('button');
         miBoton.classList.add('btn', 'btn-danger', 'mx-2');
         miBoton.textContent = 'x';
