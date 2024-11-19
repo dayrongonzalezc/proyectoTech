@@ -90,6 +90,94 @@
             precio: 36000,
             categoria: "shorts",
             imagen: "assets/img/Productos/p3.short.jpg"
+        },
+        {
+            id: 12,
+            nombre: "Jogger Mujer",
+            descripcion: "Jogger gris oscuro algodonado",
+            precio: 70000,
+            categoria: "jogger",
+            imagen: "assets/img/Productos/p4.jogger.jpg"
+        },
+        {
+            id: 13,
+            nombre: "Chaqueta",
+            descripcion: "Chaqueta deportiva semi impermeable",
+            precio: 80000,
+            categoria: "chaquetas",
+            imagen: "assets/img/Productos/p5.chaqueta.jpg"
+        },
+        {
+            id: 14,
+            nombre: "Leggins",
+            descripcion: "Leggins gris estampado",
+            precio: 65000,
+            categoria: "leggins",
+            imagen: "assets/img/Productos/p6.leggins.JPG"
+        },
+        {
+            id: 15,
+            nombre: "Chaqueta Mujer",
+            descripcion: "Chaqueta blanca con capucha",
+            precio: 139000,
+            categoria: "chaquetas",
+            imagen: "assets/img/Top/T1.Chaqueta.jpg"
+        },
+        {
+            id: 16,
+            nombre: "Jogger Mujer",
+            descripcion: "Jogger Beige",
+            precio: 95000,
+            categoria: "joggers",
+            imagen: "assets/img/Top/T2. JoggerB.jpg"
+        },
+        {
+            id: 17,
+            nombre: "leggins + Top",
+            descripcion: "Conjunto",
+            precio: 72900,
+            categoria: "leggins",
+            imagen: "assets/img/Top/T3.LegginsT.jpg"
+        },
+        {
+            id: 18,
+            nombre: "Sueter + sudadera",
+            descripcion: "Conjunto Mujer",
+            precio: 115000,
+            categoria: "sudadera",
+            imagen: "assets/img/Top/T4.Conjss.jpg"
+        },
+        {
+            id: 19,
+            nombre: "Jogger Hombre",
+            descripcion: "Jogger negro",
+            precio: 82500,
+            categoria: "jogger",
+            imagen: "assets/img/Top/T5.PantJogg.jpg"
+        },
+        {
+            id: 20,
+            nombre: "Chaqueta mujer",
+            descripcion: "Chaqueta negra con capucha",
+            precio: 90000,
+            categoria: "chaquetas",
+            imagen: "assets/img/Top/T6.ChaquetaN.jpg"
+        },
+        {
+            id: 21,
+            nombre: "Short Mujer",
+            descripcion: "Short negro con bolsillos",
+            precio: 45000,
+            categoria: "shorts",
+            imagen: "assets/img/Top/T7.ShortBolsillo.jpg"
+        },
+        {
+            id: 22,
+            nombre: "Chaqueta + sudadera",
+            descripcion: "Conjunto",
+            precio: 239000,
+            categoria: "chaquetas",
+            imagen: "assets/img/Top/T8.ConjCbSN.jpg"
         }
   
     ];
