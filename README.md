@@ -1,1 +1,0 @@
-Proyecto final Talento Tech
